@@ -1,4 +1,4 @@
-/* website structure */
+/******* website structure *******/
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +28,9 @@ body{
     text-indent: -3000px; /*accessibility*/  
 }
 
-/*navigation bar*/
+/******* end website structure *******/
+
+/******** start navigation bar ********/
 
 ul {
     margin: 0px;
@@ -64,6 +66,8 @@ ul {
     color: #69001d;;
 }
 
+/******** end navigation bar ********/
+
 body.home #navigation a#home,
 body.brasil #navigation a#brasil,
 body.international #navigation a#international,
@@ -74,4 +78,53 @@ body.fotos #navigation a#fotos {
     color: white;
     background: #de003e;
     cursor: text ;
+}
+
+/******** sets up three column layout ********/
+
+#content {
+    background:#f5f5f5;
+    margin-top: 60px;
+
+}
+
+#primary {
+    background: blue;
+    float: left;
+    width: 270px;
+    margin: 0 0 20px 195px;
+
+
+}
+
+#secondary {
+    background: green;
+    float: left;
+    width: 270px;
+    margin: 0 0 20px 15px;
+
+
+}
+
+#side {
+    background: hotpink;
+    float: left;
+    width: 180px;
+    margin: 0 0 20px -750px;
+
+
+
+}
+
+/******** footer ********/
+#footer-container {
+   background: #294c71;
+   padding: 20px;
+}
+
+#footer {
+    color: #fff;
+    width: 750px;
+    margin: 0 auto;
+
 }

@@ -136,6 +136,45 @@ h2 {
     padding: 5px;
 }
 
+/******** format side menus ********/
+#side ul a {
+    border-bottom: 1px solid #f3f3f3;
+    color: #000;
+    display: 3px;;
+    font-size: 0.9em;
+    line-height: 30px;
+    padding: 3px;    
+    text-decoration: none;
+}
+
+#side ul a:hover {
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    color: #a1a1a1;
+    padding-left: 20px;
+}
+
+/******** formatting forms ********/
+label {
+    cursor: pointer;
+    display:  block;
+}
+
+input {
+    background-color: #fff;
+    font-size:  0.8em;
+    padding: 5px;
+    width: 125px;
+}
+
+input.submit {
+    color:  #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    padding: 5px;
+    width: 80px; 
+
+}
+
 /******** footer ********/
 #footer-container {
    background: #294c71;

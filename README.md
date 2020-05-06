@@ -16,4 +16,7 @@ Modified by: Fernanda Akemi Akatuka Salvador
 
 ![fileciencia](https://user-images.githubusercontent.com/62657933/81130087-dabe9200-8f1c-11ea-89a0-da378bcec1b0.PNG)
 
-![filephotos](https://user-images.githubusercontent.com/62657933/81130093-ddb98280-8f1c-11ea-9d9b-af19b08477a0.PNG)
+![filephotos](https://user-images.githubusercontent.com/62657933/81130206-44d73700-8f1d-11ea-9079-b7f75d9b6262.PNG)
+
+
+

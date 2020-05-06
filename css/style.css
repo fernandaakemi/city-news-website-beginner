@@ -66,7 +66,7 @@ ul {
     color: #69001d;;
 }
 
-/******** end navigation bar ********/
+
 
 body.home #navigation a#home,
 body.brasil #navigation a#brasil,
@@ -74,11 +74,13 @@ body.international #navigation a#international,
 body.economy #navigation a#economy,
 body.health #navigation a#health,
 body.science #navigation a#science,
-body.fotos #navigation a#fotos {
+body.photos #navigation a#photos {
     color: white;
     background: #de003e;
     cursor: text ;
 }
+
+/******** end navigation bar ********/
 
 /******** sets up three column layout ********/
 
@@ -105,7 +107,7 @@ body.fotos #navigation a#fotos {
 
 #one-column #primary {
     width: 750px;
-    margin: 0 0 20px 195px;
+    margin: 0 0 20px 0;
 }
 
 #secondary {
@@ -177,6 +179,7 @@ input.submit {
 img.main-image {
     border: 3px solid #dfdfdf;
     width: 98%;
+
 }
 
 /******** formatting headers ********/
@@ -193,9 +196,43 @@ h3 {
 }
 
 .interview h3 {
-    color: yellow;
+    color: black;
     background: #b10333;
 }
+
+/******** formatting news list ********/
+
+#news-list li {
+    border-bottom: 1px solid #ccc;
+    height: 65px;;
+    padding: 2px;
+}
+
+#news-list li a img {
+    float: left;
+    margin: 5px;
+}
+
+#news-list li a {
+    text-decoration: none;
+}
+
+#news-list li a h3 {
+    color: #3e7ab9;
+    font-size: 0.7em;
+    padding: 0;
+}
+
+#news-list li a p {
+    font-size: 0.7em;
+}
+
+#news-list li:hover {
+    cursor: pointer;
+    background: #eee;;
+}
+
+
 
 /******** footer ********/
 #footer-container {
@@ -205,7 +242,9 @@ h3 {
 
 #footer {
     color: #fff;
-    width: 750px;
     margin: 0 auto;
+    text-align: center;
+    width: 750px;
+
 
 }
